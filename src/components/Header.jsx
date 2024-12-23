@@ -1,11 +1,10 @@
-
 const Header = () => {
   return (
-    <nav className=" flex items-center justify-between border-b mb-3">
-        <h1 className=" text-lg font-medium">Hello, Damilola!</h1>
-        <img src="./src/assets/Logo.svg" className="w-8" />
-    </nav>
-  )
-}
+    <header className=" flex items-center gap-3 border-b mb-3">
+      <img src="./src/assets/Logo.svg" className="w-8 md:hidden" alt="logo" />
+      <h1 className=" text-xl font-medium">Hello, Damilola!</h1>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
