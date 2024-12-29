@@ -8,6 +8,9 @@ export default {
     extend: {
       colors: {
         "green": "#EAE9E3"
+      },
+      screens : {
+        'max-767': {max: '768px'}
       }
     },
   },

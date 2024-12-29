@@ -12,17 +12,19 @@ import {
 const DoughnutChart = () => {
     const data = {
         labels: [
-          'Red',
-          'Blue',
-          'Yellow'
+          'Food',
+          'Clothing',
+          'Transport',
+          'Others'
         ],
         datasets: [{
           label: 'My First Dataset',
-          data: [300, 50, 100],
+          data: [300, 50, 100, 70],
           backgroundColor: [
             '#A4C8AE',
             '#B8BED5',
-            '#E5D6B8'
+            '#E5D6B8',
+            '#C1D8DA'
           ],
           borderRadius: 10,
         }]
